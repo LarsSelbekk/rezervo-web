@@ -27,6 +27,7 @@ export type IntegrationUserPayload = IntegrationUser & {
 
 export type NotificationsConfig = {
     reminder_hours_before: number | null;
+    push_notification_subscription: PushSubscription | null;
 };
 
 export type Preferences = {
